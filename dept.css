@@ -1,0 +1,42 @@
+.topbar{
+  width: 100%;
+  margin-top: 40px;
+  border: rgba(0,0,0,0.35) dashed 5px;
+  padding: 40px;
+}
+
+.topbar h2{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.topbar ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.topbar a{
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.topbar li::after{
+  content: "";
+  border-right: black solid 2px;
+  position: relative;
+  left: 60px;
+}
+
+.depts{
+  height: 100vh;
+}
+
+.content .img{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/CS.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
