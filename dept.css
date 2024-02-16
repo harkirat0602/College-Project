@@ -1,7 +1,7 @@
 .topbar{
   width: 100%;
   margin-top: 40px;
-  border: rgba(0,0,0,0.35) dashed 5px;
+  border: rgba(0,0,0,0.35) solid 5px;
   padding: 40px;
 }
 
@@ -30,13 +30,39 @@
 }
 
 .depts{
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .content .img{
   width: 100vw;
-  height: 100vh;
-  background-image: url("images/CS.jpg");
+  height: 120vh;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.depts h2{
+  margin-top: 100px;
+  font-size: 4rem;
+  font-family: Lato;
+  text-align: center;
+  font-weight: 900;
+}
+
+
+.depts p{
+  margin:70px 80px 60px 80px;
+  font-size: 1.2rem;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.topbar a, .topbar a:visited{
+  color: rgb(65, 92, 230);
+  font-family: Lato;
+  font-weight: 700;
+}
+
+.topbar a:hover{
+  color: rgb(102, 114, 179);
+  transition: 0s;
 }

@@ -50,3 +50,14 @@ h2{
 img{
   height: 500px;
 }
+
+.navlinks a, .navlinks a:visited{
+  color: black;
+  font-family: Lato;
+  font-weight: 700;
+}
+
+.navlinks a:hover{
+  color: rgb(100,100,100);
+  transition: 0s;
+}
